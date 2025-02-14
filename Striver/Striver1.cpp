@@ -3,27 +3,9 @@
 #include<cmath>
 using namespace std;
 
-/*
-int count(int n)
-{
-    int count = 0;
-    while(n > 0)
-    {
-        int lastdigit = n % 10;
-        count = count + 1;
-        n = n / 10;
-    }
 
-    return count;
-}
-int main()
-{
-    int number = 7789;
 
-    int result = count(number);
-    cout<<result<<endl;
-}
-*/
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //Count the number of digits in n which evenly divide n.
@@ -111,25 +93,3 @@ int main()
 
 */
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++
-//print all divisors of a number
-/*
-void printDivisors(int n)
-{
-    for(int i=1; i<=n; i++)
-    {
-        if(n % i == 0)
-        {
-            cout<<i<<" ";
-        }
-    }
-}
-int main()
-{
-    int number;
-    cout<<"enter the number: "<<endl;
-    cin>>number;
-
-    printDivisors(number);
-}
-*/
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++

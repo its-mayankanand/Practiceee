@@ -31,7 +31,8 @@ int main()
 //--------------------------------------------------------------------
 //More simplied version
 
-// Function to search for an element in a vector
+// Function to search for an element in a vector or an array
+
 int search(vector<int> &arr, int x) 
 {
     int N = arr.size();

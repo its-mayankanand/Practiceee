@@ -1,0 +1,24 @@
+#include<iostream>
+#include<stack>
+using namespace std;
+
+//Stack STL
+
+int main()
+{
+    stack<int> S;
+    S.push(6);
+    S.push(16);
+    S.push(26);
+    cout<<S.size()<<endl;
+
+    //top
+    cout<<S.top()<<endl;
+
+    //pop
+    S.pop();
+    cout<<S.top()<<endl;
+
+    //empty
+    cout<<S.empty()<<endl;
+}

@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//check equal arrays
+//check equal arrays or not 
 
 #include <iostream>
 #include <vector>
